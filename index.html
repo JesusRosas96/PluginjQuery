@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Curso jQuery</title>
+</head>
+
+<body>
+	<center>
+		<h1>Plugin jQuery</h1>
+		<iframe class="video" width= "560" height="315" src="https://www.youtube.com/embed/aSRHJmNJuQU" frameborder="0" allowfullscreen></iframe>
+	</center>
+	<div style="height: 400px">Soy un espacio</div>
+	<div style="height: 400px">Soy un espacio</div>
+	<div style="height: 400px">Soy un espacio</div>
+	<div style="height: 400px">Soy un espacio</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="videoscroll.js"></script>
+	<script>
+		$(function(){
+			$('.video').vscroll();
+		});
+	</script>
+</body>
+</html>
